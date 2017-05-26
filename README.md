@@ -50,4 +50,4 @@ During the end of 2016 and beginning of 2017 a large bug bounty was created to i
 
 ## Need Help
 
-I'm not a security researcher and I don't know what I'm doing here (-; If you know, I would love to see your contribution here! If you also don't know I would love to see how we learn together morea bout this topic <3
+I'm not a security researcher and I don't know what I'm doing here (-; If you know, I would love to see your contribution here! If you also don't know I would love to see how we learn together more about this topic <3
