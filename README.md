@@ -46,7 +46,7 @@ afl-fuzz -x mruby-afl.dict -i mruby-afl-input-test-cases -o result-dir mruby-afl
 
 ## Motivation
 
-During the end of 2016 and beginning of 2017 a large bug bounty was created to improve mruby's quality. Many bugs were discovered and fixed during this period. Yet due to some conflicts during this activity several bugs were in the end not disclosed to *us* (the mruby developers). It is needless to point people our here. I (@bovi) can only speak for myself and I can say that I'm happy for all the bug reports and I certainly don't see a fair way to push anyone to disclose these information as everyone has done the work probably in its own time. Yet I can't except that we have bugs in mruby which are known in a certain community but unknown to the general public. For this reason I want to contribute this code and a bit of processing power to find as many as possible bugs.
+During the end of 2016 and beginning of 2017 a large bug bounty was created to improve mruby's quality. Many bugs were discovered and fixed during this period. Yet due to some conflicts during this activity several bugs were in the end not disclosed to *us* (the mruby developers). It is needless to point people our here. I (@bovi) can only speak for myself. And I'm thankful for all the bug reports we received. There is certainly no right to us available to push anyone to disclose information which they have aquired in their own time. Yet I can't accept that we have bugs in mruby which are known to a certain community but unknown to the general public. For this reason I want to contribute this code and processing power to find more open bugs.
 
 ## Need Help
 
