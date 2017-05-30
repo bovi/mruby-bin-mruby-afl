@@ -9,19 +9,24 @@ main(int argc, char **argv)
 {
   mrb_state *mrb;
   FILE *in;
+  
+  /* open mruby interpreter instance */
+  mrb = mrb_open();
 
   while (__AFL_LOOP(1000)) {
-    // init || re-int code and load new source
-    mrb = mrb_open();
+    /* load new source */
     in = fopen(argv[1], "r");
 
-    // execute
+    /* execute ruby code */
     mrb_load_file(mrb, in);
 
-    // clean up
+    /* load new source */
     fclose(in);
-    mrb_close(mrb);
   }
+  
+  /* cleanup mruby */
+  mrb_close(mrb);
 
   return 0;
 }
+
