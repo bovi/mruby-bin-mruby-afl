@@ -20,7 +20,7 @@ The AFL persistent mode is one way to speed the fuzzing up. It requires to write
 
 ## mruby interpreter with AFL persistent mode
 
-This GEM is a cut-down version of the mruby interpreter. It removes all unnecessary features (e.g. special parsing arguments from the command line) and adds a persistent AFL loop around the mruby parser. With this AFL can reduce the usage of fork, which is usually used to fuzz programs. This results in my environment in a fuzzing seedup x2.
+This GEM is a cut-down version of the mruby interpreter. It removes all unnecessary features (e.g. special parsing arguments from the command line) and adds a persistent AFL loop around the mruby parser. With this AFL can reduce the usage of fork, which is usually used to fuzz programs. This results in my environment in a fuzzing seedup x30.
 
 ## Usage
 
